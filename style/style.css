@@ -1,0 +1,91 @@
+/* Mulis font url import */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,700;1,700&display=swap');
+
+* {
+ font-family: Mulish;
+}
+/* Primary-Orange-Color */
+
+.primary-orange-color{
+ color: #FF5400;
+}
+/* Aligns the items vertically in the center */
+
+.header {
+ 
+ display: flex;
+ align-items: center; 
+ padding: 40px 240px;
+ 
+}
+
+
+.section-title{
+ 
+ font-family: Mulish;
+font-weight: 800;
+font-size: 2.8rem;
+line-height: normal;
+}
+
+nav{
+ padding: 20px 20px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+}
+nav ul{
+ display: flex;
+}
+nav li{
+ list-style: none;
+ margin: 30px;
+ font-weight: 500;
+ font-size: 1rem;
+}
+nav a{
+
+font-weight: 400;
+font-size: 1.5rem;
+line-height: normal;
+text-align: center;
+color: #424247;
+ text-decoration: none;
+ 
+}
+
+.banner{
+ border-radius: 10px;
+background: center;
+ background-repeat: no-repeat;
+ background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+ 
+} 
+
+.banner-content{
+
+ width: 1200px;
+height: 500px;
+
+ margin: 0px auto;
+ 
+
+border-radius: 10px;
+background-image: linear-gradient(to bottom, rgba(9, 2, 17, 0.5), rgba(197, 106, 10, 0.1));
+
+}
+
+
+
+.banner-title {
+ text-align: center;
+
+ margin-top: 50px;
+ color: #FFFFFF; 
+ 
+ font-size: 3.5rem;
+ 
+ font-weight: bold; 
+
+}
