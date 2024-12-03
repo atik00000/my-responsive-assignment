@@ -62,6 +62,60 @@ background: center;
  background-image: url(../Images/Group\ 13\ \(1\)\ \(1\).png);
  
 } 
+.input-container{
+ display: flex;
+ justify-content: center;
+
+ margin-top: 5rem;
+ gap: 1.5rem;
+
+
+background-color: rgba(245, 245, 247, 0.384);
+ padding:  auto;
+ border-radius: 10px;
+}
+.input-field{
+ position: relative;
+ 
+}
+.input-icon1{
+ position: absolute;
+ top:20px;
+ right: 10px;
+ color: black;
+ 
+}
+.input-icon{
+ position: absolute;
+ top:20px;
+ right: 10px;
+ color: black;
+
+}
+.btn-primary{
+ justify-content: center;
+
+border: none;
+width: 200px;
+ height: 60px; 
+display: flex;
+gap: 24px;
+background-color: #ffffff;
+margin: 0 auto;
+border-radius: 10px;
+
+}
+
+.icon-button{
+ color: #FFFFFF;
+ border: none;
+ border-radius: 10px;
+ width: 200px;
+ height: 60px;
+background-color: #ff5400;
+
+ 
+}
 
 .banner-content{
 
@@ -89,3 +143,44 @@ background-image: linear-gradient(to bottom, rgba(9, 2, 17, 0.5), rgba(197, 106,
  font-weight: bold; 
 
 }
+.banner-description{
+ font-family: Mulish;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 26px;
+ text-align: center;
+ color: #ffffff;
+}
+.tour-container{
+ gap: 100px;
+ 
+ margin: 0  auto;
+ display: flex;
+ width: 1200px;
+ justify-content: center;
+}
+.tour-title{
+
+ display: flex;
+ font-weight: 800;
+ font-size: 3rem;
+ line-height: normal;
+ text-align: center;
+ color: #131318;
+
+
+}
+.tour-description{
+
+}
+.tour-image{
+ margin-top: 80px;
+ 
+}
+/* Adjust the value as needed */
+.tour-description {
+ display: flex;
+ flex-direction: column;
+ gap: 50px; 
+ 
+ }
